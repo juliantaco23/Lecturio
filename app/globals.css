@@ -114,10 +114,5 @@
 }
 
 @layer base {
-  * {
-    @apply border border-[color:var(--color-border)] outline outline-1 outline-[color:var(--color-ring)];
-  }
-  body {
-    @apply bg-[color:var(--color-background)] text-[color:var(--color-foreground)];
-  }
+
 }
