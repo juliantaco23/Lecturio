@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LecturioApp - Landing Page
 
-## Getting Started
+Una landing page moderna y responsiva para LecturioApp, una plataforma EdTech SaaS que ayuda a escuelas y estudiantes a mejorar la comprensión lectora mediante evaluaciones automatizadas y personalizadas con IA.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
+- **Diseño Moderno**: UI contemporáneo con esquinas redondeadas, gradientes suaves y paleta de colores pastel
+- **Totalmente Responsivo**: Optimizado para todos los dispositivos y tamaños de pantalla
+- **Animaciones Interactivas**: Efectos hover y transiciones suaves en toda la página
+- **Contenido en Español**: Todo el contenido está localizado en español
+- **Accesibilidad**: HTML semántico y cumplimiento de estándares de accesibilidad
+- **Rendimiento Optimizado**: Construido con Next.js para máximo rendimiento
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Next.js 14** - Framework de React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Framework de CSS utilitario
+- **Lucide React** - Iconos modernos
+- **Radix UI** - Componentes de UI accesibles
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+\`\`\`bash
+git clone <repository-url>
+cd lecturio-app-landing
+\`\`\`
+
+2. Instala las dependencias:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Ejecuta el servidor de desarrollo:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+lecturio-app-landing/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   └── button.tsx
+│   ├── header.tsx
+│   ├── hero.tsx
+│   ├── features.tsx
+│   ├── testimonials.tsx
+│   ├── pricing.tsx
+│   ├── faq.tsx
+│   ├── cta.tsx
+│   └── footer.tsx
+├── lib/
+│   └── utils.ts
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+\`\`\`
 
-## Learn More
+## 🎨 Secciones de la Landing Page
 
-To learn more about Next.js, take a look at the following resources:
+1. **Header** - Navegación con logo y CTA
+2. **Hero** - Sección principal con propuesta de valor
+3. **Features** - Características principales del producto
+4. **Testimonials** - Testimonios de usuarios satisfechos
+5. **Pricing** - Planes y precios
+6. **FAQ** - Preguntas frecuentes
+7. **CTA Final** - Llamada a la acción final
+8. **Footer** - Enlaces importantes y información de contacto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Características Principales de LecturioApp
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Niveles de Lectura Adaptativos**: IA que ajusta la dificultad automáticamente
+- **Evaluaciones Automatizadas**: Sistema inteligente de evaluación
+- **Dashboards Analíticos**: Paneles completos para educadores
+- **Gestión de Aulas**: Herramientas colaborativas
+- **Biblioteca Digital**: Miles de textos educativos
+- **Retroalimentación Instantánea**: Comentarios inmediatos para estudiantes
 
-## Deploy on Vercel
+## 🚀 Scripts Disponibles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Ejecuta el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run start` - Ejecuta la aplicación en modo producción
+- `npm run lint` - Ejecuta el linter de código
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsividad
+
+La landing page está completamente optimizada para:
+- 📱 Móviles (320px+)
+- 📱 Tablets (768px+)
+- 💻 Desktop (1024px+)
+- 🖥️ Pantallas grandes (1280px+)
+
+## 🎨 Paleta de Colores
+
+- **Azul Principal**: `#3B82F6` (blue-500)
+- **Púrpura**: `#8B5CF6` (purple-500)
+- **Blanco**: `#FFFFFF`
+- **Grises**: Escala de grises de Tailwind
+- **Acentos**: Verde, amarillo, naranja para elementos específicos
+
+## 📞 Contacto
+
+Para más información sobre LecturioApp:
+- Email: hola@lecturioapp.co
+- Teléfono: +57 (4) 444 5678
+- WhatsApp: +57 300 123 4567
+- Ubicación: Medellín, Colombia
+
+## 💰 Planes y Precios
+
+- **Básico**: $149.000 COP/mes - Hasta 30 estudiantes
+- **Profesional**: $389.000 COP/mes - Hasta 150 estudiantes (Más Popular)
+- **Institucional**: $989.000 COP/mes - Estudiantes ilimitados
+
+## 🇨🇴 Contexto Educativo Colombiano
+
+LecturioApp está diseñada específicamente para el contexto educativo colombiano:
+- Alineada con los Estándares Básicos de Competencias del MEN
+- Compatible con los Derechos Básicos de Aprendizaje (DBA)
+- Preparación para Pruebas Saber
+- Soporte en horario colombiano
+- Precios en pesos colombianos
+
+## 📄 Licencia
+
+Este proyecto es privado y propietario de LecturioApp.
