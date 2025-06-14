@@ -39,32 +39,6 @@ npm run dev
 
 4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador
 
-## 🏗️ Estructura del Proyecto
-
-\`\`\`
-lecturio-app-landing/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── ui/
-│   │   └── button.tsx
-│   ├── header.tsx
-│   ├── hero.tsx
-│   ├── features.tsx
-│   ├── testimonials.tsx
-│   ├── pricing.tsx
-│   ├── faq.tsx
-│   ├── cta.tsx
-│   └── footer.tsx
-├── lib/
-│   └── utils.ts
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
-\`\`\`
 
 ## 🎨 Secciones de la Landing Page
 
@@ -108,29 +82,6 @@ La landing page está completamente optimizada para:
 - **Blanco**: `#FFFFFF`
 - **Grises**: Escala de grises de Tailwind
 - **Acentos**: Verde, amarillo, naranja para elementos específicos
-
-## 📞 Contacto
-
-Para más información sobre LecturioApp:
-- Email: hola@lecturioapp.co
-- Teléfono: +57 (4) 444 5678
-- WhatsApp: +57 300 123 4567
-- Ubicación: Medellín, Colombia
-
-## 💰 Planes y Precios
-
-- **Básico**: $149.000 COP/mes - Hasta 30 estudiantes
-- **Profesional**: $389.000 COP/mes - Hasta 150 estudiantes (Más Popular)
-- **Institucional**: $989.000 COP/mes - Estudiantes ilimitados
-
-## 🇨🇴 Contexto Educativo Colombiano
-
-LecturioApp está diseñada específicamente para el contexto educativo colombiano:
-- Alineada con los Estándares Básicos de Competencias del MEN
-- Compatible con los Derechos Básicos de Aprendizaje (DBA)
-- Preparación para Pruebas Saber
-- Soporte en horario colombiano
-- Precios en pesos colombianos
 
 ## 📄 Licencia
 
